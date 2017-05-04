@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright 2016 Michael Sladoje and Mike Schälchli. All Rights Reserved.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<resources>
+    <color name="colorPrimary">#40413f</color>
+    <color name="colorPrimaryDark">#161615</color>
+    <color name="colorAccent">#ffa640</color>
+
+    <color name="black_overlay">#000000</color>
+    
+    <color name="a1">#b3ecec</color>
+    <color name="a2">#89ecda</color>
+    <color name="a3">#43e8d8</color>
+    <color name="a4">#40e0d0</color>
+    <color name="a5">#3bd6c6</color>
+
+    <color name="c1">#ff002b36</color>
+    <color name="c2">#40002129</color>
+    <color name="c3">#ffcbd2d2</color>
+    <color name="c4">#ff002129</color>
+    <color name="c5">#ffe91e63</color>
+    <color name="c6">#ddfdf6e3</color>
+    <color name="c7">#ff93a1a1</color>
+
+
+    <color name="b1">#ff77aa</color>
+    <color name="b2">#ff99cc</color>
+    <color name="b3">#ffbbee</color>
+    <color name="b4">#ff5588</color>
+    <color name="b5">#ff3377</color>
+    
+    <color name="rc1">#0e1a40</color>
+    <color name="rc2">#222f5b</color>
+    <color name="rc3">#5d5d5d</color>
+    <color name="rc4">#946b2d</color>
+    <color name="rc5">#000000</color>
+
+    <color name="hp1">#eec540</color>
+    <color name="hp2">#d2ad33</color>
+    <color name="hp3">#927a2c</color>
+    <color name="hp4">#58460e</color>
+    <color name="hp5">#000000</color>
+
+    <color name="gol1">#a67c00</color>
+    <color name="gol2">#bf9b30</color>
+    <color name="gol3">#ffbf00</color>
+    <color name="gol4">#ffcf40</color>
+    <color name="gol5">#ffdc73</color>
+
+    <color name="green1">#52bf90</color>
+    <color name="green2">#49ab81</color>
+    <color name="green3">#419873</color>
+    <color name="green4">#398564</color>
+    <color name="green5">#317256</color>
+
+    <color name="pastel1">#ffd4e5</color>
+    <color name="pastel2">#d4ffea</color>
+    <color name="pastel3">#eecbff</color>
+    <color name="pastel4">#feffa3</color>
+    <color name="pastel5">#dbdcff</color>
+
+    <color name="gryffindor1">#d64949</color>
+    <color name="gryffindor2">#b83f3f</color>
+    <color name="gryffindor3">#a12121</color>
+    <color name="gryffindor4">#fdeacd</color>
+    <color name="gryffindor5">#fdd17c</color>
+
+    <color name="slytherin1">#284d16</color>
+    <color name="slytherin2">#1d3c0e</color>
+    <color name="slytherin3">#42473f</color>
+    <color name="slytherin4">#232721</color>
+    <color name="slytherin5">#000000</color>
+
+</resources>

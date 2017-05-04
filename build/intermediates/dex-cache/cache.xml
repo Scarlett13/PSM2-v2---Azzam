@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="H:\Android-Face-Recognition-with-Deep-Learning-Test-Framework\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="H:\Android-Face-Recognition-with-Deep-Learning-Test-Framework\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_46d5b8a5098fdaa4cf2b930763f669f722dfcb04\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Android-Face-Recognition-with-Deep-Learning-Test-Framework\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="183b046b599b73bfc7f0622769f1d479afaed62d">
+        <dex dex="H:\Android-Face-Recognition-with-Deep-Learning-Test-Framework\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_722dbbdffe89a2d809d44a2e09ae92568b45586a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Android-Face-Recognition-with-Deep-Learning-Test-Framework\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="H:\Android-Face-Recognition-with-Deep-Learning-Test-Framework\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_66065d6a3256d410f1860924511006bb0887a696\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Android-Face-Recognition-with-Deep-Learning-Test-Framework\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="H:\Android-Face-Recognition-with-Deep-Learning-Test-Framework\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_affea1a9543ddbe76f978ff8bf1db4404d9dbb59\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Android-Face-Recognition-with-Deep-Learning-Test-Framework\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="75f83c6d4f038e6f1965622f263108bcfe924919">
+        <dex dex="H:\Android-Face-Recognition-with-Deep-Learning-Test-Framework\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1ac9674842fb2fac324de07a456fea1c3a75a133\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Android-Face-Recognition-with-Deep-Learning-Test-Framework\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="H:\Android-Face-Recognition-with-Deep-Learning-Test-Framework\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_34f4a1026982eea13c85d7dfe618c0c8a528ebdb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\SDK\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="H:\Android-Face-Recognition-with-Deep-Learning-Test-Framework\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_001c80fc6f249aa3cd5ee18fb19c265890cdb74b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Android-Face-Recognition-with-Deep-Learning-Test-Framework\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="H:\Android-Face-Recognition-with-Deep-Learning-Test-Framework\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_eab9a970c73111b54c3931285bb679f121f99ddb\classes.dex" />
+    </item>
+
+</items>

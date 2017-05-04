@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright 2016 Michael Sladoje and Mike Schälchli. All Rights Reserved.
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="azzam.fyp.facerecognition">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Gryffindor">
+        <activity
+            android:name="azzam.fyp.facerecognition.Activities.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="azzam.fyp.facerecognition.Activities.RecognitionActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/image" />
+            </intent-filter>
+        </activity>
+        <activity android:name="azzam.fyp.facerecognition.Activities.TrainingActivity" />
+        <activity
+            android:name="azzam.fyp.facerecognition.Activities.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name="azzam.fyp.facerecognition.Activities.TestActivity" />
+        <activity android:name="azzam.fyp.facerecognition.Activities.AddPersonActivity" />
+        <activity
+            android:name="azzam.fyp.facerecognition.Activities.AddPersonPreviewActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name="azzam.fyp.facerecognition.Activities.DetectionTestActivity" />
+        <activity
+            android:name="azzam.fyp.facerecognition.Activities.DetectionActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="azzam.fyp.facerecognition.Alarm.AlarmActivity"
+            android:theme="@style/Gryffindor" />
+        <activity android:name="azzam.fyp.facerecognition.Alarm.chooseTheme"></activity>
+    </application>
+
+</manifest>
